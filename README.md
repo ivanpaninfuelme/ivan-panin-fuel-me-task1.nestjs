@@ -1,11 +1,10 @@
 # ivan-panin-fuel-me-task1.nestjs
 
 # install:
-nest new users-with-posts/
-cd users-with-posts/
+git clone git@github.com:ivanpaninfuelme/ivan-panin-fuel-me-task1.nestjs
+cd ivan-panin-fuel-me-task1.nestjs
 npm i axios
 npm install --save-dev @types/axios
-nest g controller report
-nest g module report
-nest g service report
+npm i reflect-metadata
+npm install --save-dev @types/node
 npx ts-node src/cli.ts
